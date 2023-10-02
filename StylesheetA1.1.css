@@ -1,0 +1,45 @@
+body {
+    background-color: #16C700;
+    max-width: 52rem;;
+}
+
+header {
+    height: 7rem;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    border-radius: 3rem;
+    padding: 0.6rem;
+    border: 2px solid #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #42e368;
+    text-align: center;
+    margin-top: 30px
+}
+
+nav a {
+    border-radius: 3rem;
+    padding: 0.6rem;
+    border: 2px;
+}
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    gap: 1rem;
+}
+
+.imageGrid img {
+    width: 10rem;
+}
