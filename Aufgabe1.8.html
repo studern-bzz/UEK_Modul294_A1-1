@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="de-CH">
+<head>
+  <meta charset="UTF-8">
+  <title>Aufgabe 1.7</title>
+</head>
+<body>
+<script>
+  number = Math.floor(Math.random() * 100)
+  while (true){
+    let input = Number(prompt("Guess my number"))
+    if (number === input) {
+        alert(`Glückwunsch, Sie haben die zahl ${number} erraten`)
+      break}
+    else if (input > number) {
+        alert("TIEFER")
+    }
+    else if (input < number) {
+        alert("höher")
+    }}
+
+
+
+</script>
+<main>
+
+</main>
+<footer>
+</footer>
+</body>
+</html>
